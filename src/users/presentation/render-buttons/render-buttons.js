@@ -1,5 +1,5 @@
-import { renderTable } from "../presentation/render-table";
-import userStore from "../store/user-store";
+import { renderTable } from "../render-table/render-table";
+import userStore from "../../store/user-store";
 import "./render-buttons.css";
 
 export const renderButtons = ( element ) => {
